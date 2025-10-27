@@ -1,10 +1,10 @@
- import javax.swing.*;
+import javax.swing.*;
 import javax.swing.tree.DefaultMutableTreeNode;
 
-public class TreeExample {
+public class x10fTreeExample {
     JFrame f;
 
-    TreeExample() {
+    x10fTreeExample() {
         f = new JFrame("Tree Example");
 
         // Create root node
@@ -39,6 +39,6 @@ public class TreeExample {
     }
 
     public static void main(String[] args) {
-        new TreeExample();
+        new x10fTreeExample();
     }
 }

@@ -1,7 +1,7 @@
- import javax.swing.*;
+import javax.swing.*;
 
-public class SliderExample extends JFrame {
-    public SliderExample() {
+public class x10hSliderExample extends JFrame {
+    public x10hSliderExample() {
         super("Slider Example");
 
         // Create the slider
@@ -26,6 +26,6 @@ public class SliderExample extends JFrame {
     }
 
     public static void main(String[] args) {
-        new SliderExample();
+        new x10hSliderExample();
     }
 }

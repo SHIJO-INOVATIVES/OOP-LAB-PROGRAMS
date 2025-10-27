@@ -1,12 +1,12 @@
- import javax.swing.*;
+import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class ColorChooserExample extends JFrame implements ActionListener {
+public class x10gColorChooserExample extends JFrame implements ActionListener {
     JButton b;
     JTextArea ta;
 
-    ColorChooserExample() {
+    x10gColorChooserExample() {
         super("Color Chooser Example");
 
         // Initialize components
@@ -37,6 +37,6 @@ public class ColorChooserExample extends JFrame implements ActionListener {
     }
 
     public static void main(String[] args) {
-        new ColorChooserExample();
+        new x10gColorChooserExample();
     }
 }

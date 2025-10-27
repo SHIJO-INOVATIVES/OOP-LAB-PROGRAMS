@@ -1,14 +1,14 @@
- import javax.swing.*;
+import javax.swing.*;
 import java.awt.event.*;
 
-public class MenuExample implements ActionListener {
+public class x10aMenuExample implements ActionListener {
     JFrame f;
     JMenuBar mb;
     JMenu file, edit, help;
     JMenuItem cut, copy, paste, selectAll;
     JTextArea ta;
 
-    MenuExample() {
+    x10aMenuExample() {
         f = new JFrame("Menu Example");
 
         // Create menu items
@@ -66,6 +66,6 @@ public class MenuExample implements ActionListener {
     }
 
     public static void main(String[] args) {
-        new MenuExample();
+        new x10aMenuExample();
     }
 }

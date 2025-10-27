@@ -1,10 +1,10 @@
- import javax.swing.*;
+import javax.swing.*;
 
-public class ProgressBarExample extends JFrame {
+public class x10eProgressBarExample extends JFrame {
     JProgressBar jb;
     int i = 0, num = 0;
 
-    ProgressBarExample() {
+    x10eProgressBarExample() {
         jb = new JProgressBar(0, 2000);
         jb.setBounds(40, 40, 160, 30);
         jb.setValue(0);
@@ -32,7 +32,7 @@ public class ProgressBarExample extends JFrame {
     }
 
     public static void main(String[] args) {
-        ProgressBarExample m = new ProgressBarExample();
+        x10eProgressBarExample m = new x10eProgressBarExample();
         m.setVisible(true);
         m.iterate();
     }

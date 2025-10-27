@@ -1,7 +1,7 @@
- import javax.swing.*;
+import javax.swing.*;
 import java.awt.*;
 
-public class SeparatorExample {
+public class x10dSeparatorExample {
     public static void main(String args[]) {
         JFrame f = new JFrame("Separator Example");
         f.setLayout(new GridLayout(0, 1));
